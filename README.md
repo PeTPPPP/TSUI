@@ -50,7 +50,7 @@ resource/Acc/google.json
 ```shell
     python main.py -t
 ```
-#### Extracint TSUI dataset:
+#### Extracting TSUI dataset:
 ```shell
     python main.py -x
 ```
