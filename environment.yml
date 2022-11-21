@@ -1,0 +1,19 @@
+name: tsui
+channels:
+  - conda-forge
+  - defaults
+  - dglteam
+  - pytorch
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - bs4
+  - jacon
+  - googletrans
+  - google-cloud-translate
+  - selenium
+
+
+
+

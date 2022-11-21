@@ -293,7 +293,7 @@ def update_perfectmatch_drugbank_flag(f_intomatch, fout):
 
     f_out.close()
 
-def run2():
+def run_round2():
     parser(path=params.JADERDRUG_KEGG_SEARCH_RAW_FILE1, out_name=TEXT_MAP_R1_FILE)
     run_second(path_first_map=TEXT_MAP_R1_FILE, search_dict_out_path=JADERDRUG_KEGGSEARCH_RAW_FILE_ROUND2)
     parser(mod=True, path=JADERDRUG_KEGGSEARCH_RAW_FILE_ROUND2, out_name="%s.txt" % TEXT_MAP_R2_FILE_PREF)
@@ -301,6 +301,6 @@ def run2():
     correct("%s_translated.txt" % TEXT_MAP_R2_FILE_PREF, "%s_translated_corrected.txt" % TEXT_MAP_R2_FILE_PREF)
     update_perfectmatch_drugbank_flag( "%s_translated_corrected.txt" % TEXT_MAP_R2_FILE_PREF, "%s_translated_corrected_matchingFlag.txt" % TEXT_MAP_R2_FILE_PREF)
 if __name__ == "__main__":
-    run2()
+    run_round2()
 
 

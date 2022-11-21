@@ -1,13 +1,13 @@
 import params
-from online_searching.kegg.kegg_search_round1 import run1
-from online_searching.kegg.kegg_search_round2 import run2
+from online_searching.kegg.kegg_search_round1 import run_round1
+from online_searching.kegg.kegg_search_round2 import run_round2
 from online_searching.kegg.kegg_parser import extract_text_map_line
 from params import TEXT_MAP_R1_FILE, TEXT_MAP_R2_FILE_PREF, TEXT_MAP_R3_FILE
 
 
 def run_auto_kegg_search():
-    run1()
-    run2()
+    run_round1()
+    run_round2()
 
 
 def load_jader_kegg_valid_map(d, path):

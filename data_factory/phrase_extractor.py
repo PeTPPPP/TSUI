@@ -141,10 +141,10 @@ def extract_all_leftover_phrases():
 
 
 def extract_all_phrases():
-    # extract_all_drug_phrases()
-    # extract_all_meddra_phrases()
+    extract_all_drug_phrases()
+    extract_all_meddra_phrases()
     extract_all_leftover_phrases()
-
+    extract_all_header()
 
 if __name__ == "__main__":
     # extract_all_phrases()

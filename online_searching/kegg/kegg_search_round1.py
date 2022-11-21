@@ -35,7 +35,7 @@ def loadSes(start=0, end=-1):
     return seLists
 
 
-def run1(d=None, ses=None, path=params.JADERDRUG_KEGG_SEARCH_RAW_FILE1):
+def run_round1(d=None, ses=None, path=params.JADERDRUG_KEGG_SEARCH_RAW_FILE1):
 
     browser = webdriver.Firefox()
     browser.get('https://www.genome.jp/kegg/drug/drug_ja.html')
@@ -140,5 +140,5 @@ def run1(d=None, ses=None, path=params.JADERDRUG_KEGG_SEARCH_RAW_FILE1):
 
 
 if __name__ == "__main__":
-    run1()
+    run_round1()
     pass
