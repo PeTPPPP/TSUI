@@ -1,0 +1,8 @@
+*.pyc
+data/JADERTransComb.txt
+tsui_exporter/tmp
+tsui_exporter/out
+.idea
+__pycache__/*
+*/__pycache__
+db.py

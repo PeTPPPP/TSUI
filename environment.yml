@@ -1,0 +1,13 @@
+name: tsui
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+
+
+
+
