@@ -1,0 +1,340 @@
+Table name	Column Name	Coded Value	Description
+REAC	Outcome	1	Death	OK
+REAC	Outcome	2	Light	OK
+REAC	Outcome	3	Recovery	OK
+REAC	Outcome	4	Unrecovered	OK
+REAC	Outcome	5	With sequelae	OK
+REAC	Outcome	6	Not clear	Better as Unknown
+DRUG	Involvement	1	Concomitant medication	OK
+DRUG	Involvement	2	Interaction	OK
+DRUG	Involvement	3	Suspected drug	OK
+DRUG	RouteOfAdministration	1	Auricle	OK
+DRUG	RouteOfAdministration	2	Buccal side	Better as buccal
+DRUG	RouteOfAdministration	3	Epidural	OK
+DRUG	RouteOfAdministration	4	Epidural(Local/epidural)	Same as 3
+DRUG	RouteOfAdministration	5	Epidural(epidural catheter)	Same as 3
+DRUG	RouteOfAdministration	6	Eye	OK
+DRUG	RouteOfAdministration	7	Eye(047)	Same as 6
+DRUG	RouteOfAdministration	8	Eye(065)	Same as 6
+DRUG	RouteOfAdministration	9	Eye(Canalicular anesthesia)	OK
+DRUG	RouteOfAdministration	10	Eye(Eye)	Same as 6
+DRUG	RouteOfAdministration	11	Eye(Infratrochlear nerve block)	OK
+DRUG	RouteOfAdministration	12	Haemodialysis	OK
+DRUG	RouteOfAdministration	13	Haemodialysis(Administered into the circuit during extracorporeal blood circulation)	Better as Haemodialysis(Administered into the circulation during extracorporeal blood circulation)
+DRUG	RouteOfAdministration	14	Haemodialysis(Haemodialysis)	Same as 12
+DRUG	RouteOfAdministration	15	Haemodialysis(dialysis circuit)	Same as 12
+DRUG	RouteOfAdministration	16	Haemodialysis(in the dialysis circuit)	Same as 12
+DRUG	RouteOfAdministration	17	Haemodialysis(injection line)	OK
+DRUG	RouteOfAdministration	18	Hemodialysis	Same as 12
+DRUG	RouteOfAdministration	19	In the cerebrum	Better as cerebral
+DRUG	RouteOfAdministration	20	In the liver	Better as hepatic
+DRUG	RouteOfAdministration	21	In the liver(hepatic artery)	Better as hepatic artery
+DRUG	RouteOfAdministration	22	In the lymph gland	OK
+DRUG	RouteOfAdministration	23	In the vitreous	Better as intravitreal	
+DRUG	RouteOfAdministration	24	Inhalation	Better as inhalational
+DRUG	RouteOfAdministration	25	Injection	OK
+DRUG	RouteOfAdministration	26	Inside the cavity	OK
+DRUG	RouteOfAdministration	27	Inside the cave	Same as 26
+DRUG	RouteOfAdministration	28	Inside the corpus cavernosum	OK
+DRUG	RouteOfAdministration	29	Inside the tank	Better as Intraventricular
+DRUG	RouteOfAdministration	30	Internal medicine	OK
+DRUG	RouteOfAdministration	31	Intra-amniotic	OK
+DRUG	RouteOfAdministration	32	Intra-arterial	OK
+DRUG	RouteOfAdministration	33	Intra-articular	OK
+DRUG	RouteOfAdministration	34	Intra-articular(Intra-articular)	Same as 33
+DRUG	RouteOfAdministration	35	Intracardiac	OK
+DRUG	RouteOfAdministration	36	Intracervical	OK
+DRUG	RouteOfAdministration	37	Intracorneal	OK
+DRUG	RouteOfAdministration	38	Intracoronary	OK
+DRUG	RouteOfAdministration	39	Intracoronary(Intracoronary)	Same as 38
+DRUG	RouteOfAdministration	40	Intradermal	OK
+DRUG	RouteOfAdministration	41	Intradermal(Intradermal)	Same as 40
+DRUG	RouteOfAdministration	42	Intramedullary	OK
+DRUG	RouteOfAdministration	43	Intramedullary(intramedullary)	Same as 42
+DRUG	RouteOfAdministration	44	Intrameningeal	OK
+DRUG	RouteOfAdministration	45	Intramuscular	OK
+DRUG	RouteOfAdministration	46	Intramuscular(030)	Same as 45
+DRUG	RouteOfAdministration	47	Intramuscular(Intramuscular)	Same as 45
+DRUG	RouteOfAdministration	48	Intraocular	OK
+DRUG	RouteOfAdministration	49	Intraocular(Eye drops)	OK
+DRUG	RouteOfAdministration	50	Intraocular(In the vitreous)	Better as intravitreal
+DRUG	RouteOfAdministration	51	Intraocular(Subtenon&#39	Better as Subtenon
+DRUG	RouteOfAdministration	52	Intrapericardial	OK
+DRUG	RouteOfAdministration	53	Intraperitoneal	OK
+DRUG	RouteOfAdministration	54	Intrapleural	OK
+DRUG	RouteOfAdministration	55	Intraspinal	OK
+DRUG	RouteOfAdministration	56	Intraspinal(024)	Same as 55
+DRUG	RouteOfAdministration	57	Intrasynovial	OK
+DRUG	RouteOfAdministration	58	Intrathecal	OK
+DRUG	RouteOfAdministration	59	Intrathoracic	OK
+DRUG	RouteOfAdministration	60	Intrathoracic(noMatch)	Same as 59
+DRUG	RouteOfAdministration	61	Intratracheal	OK
+DRUG	RouteOfAdministration	62	Intratumoral	OK
+DRUG	RouteOfAdministration	63	Intrauterine	OK
+DRUG	RouteOfAdministration	64	Intravenous	OK
+DRUG	RouteOfAdministration	65	Intravenous drip	OK
+DRUG	RouteOfAdministration	66	Intravenous drip(041)	Same as 65
+DRUG	RouteOfAdministration	67	Intravenous drip(042)	Same as 65
+DRUG	RouteOfAdministration	68	Intravenous drip(058)	Same as 65
+DRUG	RouteOfAdministration	69	Intravenous drip(2019/01/07)	Same as 65
+DRUG	RouteOfAdministration	70	Intravenous drip(CV port)	Same as 65
+DRUG	RouteOfAdministration	71	Intravenous drip(CV)	Same as 65
+DRUG	RouteOfAdministration	72	Intravenous drip(Continuous IV)	Same as 65
+DRUG	RouteOfAdministration	73	Intravenous drip(Dripping)	Same as 65
+DRUG	RouteOfAdministration	74	Intravenous drip(Full throttle)	Same as 65
+DRUG	RouteOfAdministration	75	Intravenous drip(IV, continuous infusion)	Same as 65
+DRUG	RouteOfAdministration	76	Intravenous drip(Injection)	Better as Intravenous injection
+DRUG	RouteOfAdministration	77	Intravenous drip(Intravenous administration)	Same as 65
+DRUG	RouteOfAdministration	78	Intravenous drip(Intravenous drip)	Same as 65
+DRUG	RouteOfAdministration	79	Intravenous drip(Intravenous injection)	Same as 65
+DRUG	RouteOfAdministration	80	Intravenous drip(Intravenous(if not specified))	Same as 65
+DRUG	RouteOfAdministration	81	Intravenous drip(Intravenous)	Same as 65
+DRUG	RouteOfAdministration	82	Intravenous drip(Persistence)	Same as 65
+DRUG	RouteOfAdministration	83	Intravenous drip(Side pipe)	Same as 65
+DRUG	RouteOfAdministration	84	Intravenous drip(Subcutaneous)	OK
+DRUG	RouteOfAdministration	85	Intravenous drip(central vein)	OK
+DRUG	RouteOfAdministration	86	Intravenous drip(continuous drip)	Same as 65
+DRUG	RouteOfAdministration	87	Intravenous drip(dialysis circuit)	OK
+DRUG	RouteOfAdministration	88	Intravenous drip(intravenous drip)	Same as 65
+DRUG	RouteOfAdministration	89	Intravenous drip(noMatch)	Same as 65
+DRUG	RouteOfAdministration	90	Intravenous drip(peripheral)	OK
+DRUG	RouteOfAdministration	91	Intravenous drip(vein)	Same as 65
+DRUG	RouteOfAdministration	92	Intravenous drip(venous reservoir)	Same as 65
+DRUG	RouteOfAdministration	93	Intravenous injection	OK
+DRUG	RouteOfAdministration	94	Intravenous rapid	OK
+DRUG	RouteOfAdministration	95	Intravenous rapid(Injection)	Same as 93
+DRUG	RouteOfAdministration	96	Intravenous rapid(Intravenous rapid)	Same as 94
+DRUG	RouteOfAdministration	97	Intravenous rapid(Intravenous)	Same as 94
+DRUG	RouteOfAdministration	98	Intravenous(if not specified)	Same as 64
+DRUG	RouteOfAdministration	99	Intravenous(if not specified)(042)	Same as 64
+DRUG	RouteOfAdministration	100	Intravenous(if not specified)(065)	Same as 64
+DRUG	RouteOfAdministration	101	Intravenous(if not specified)(CV port)	Same as 64
+DRUG	RouteOfAdministration	102	Intravenous(if not specified)(Continuous IV)	Same as 65
+DRUG	RouteOfAdministration	103	Intravenous(if not specified)(INJ)	Same as 93
+DRUG	RouteOfAdministration	104	Intravenous(if not specified)(Injection)	Same as 93
+DRUG	RouteOfAdministration	105	Intravenous(if not specified)(Intravenous(if not specified))	Same as 64
+DRUG	RouteOfAdministration	106	Intravenous(if not specified)(Intravenous)	Same as 64
+DRUG	RouteOfAdministration	107	Intravenous(if not specified)(Peripheral drip)	Same as 90
+DRUG	RouteOfAdministration	108	Intravenous(if not specified)(Persistence)	Same as 64
+DRUG	RouteOfAdministration	109	Intravenous(if not specified)(central vein)	Same as 85
+DRUG	RouteOfAdministration	110	Intravenous(if not specified)(dialysis circuit infusion)	Same as 87
+DRUG	RouteOfAdministration	111	Intravenous(if not specified)(peripheral intravenous injection)	Same as 93
+DRUG	RouteOfAdministration	112	Intravenous(if not specified)(peripheral vein)	Same as 93
+DRUG	RouteOfAdministration	113	Intravenous(if not specified)(peripheral, central venous)	Same as 64
+DRUG	RouteOfAdministration	114	Intravenous(if not specified)(right coronary artery)	Better as Intravenous(Right coronary artery)
+DRUG	RouteOfAdministration	115	Intravenously (if not specified)	Same as 64
+DRUG	RouteOfAdministration	116	Intravesical OK
+DRUG	RouteOfAdministration	117	Iontophoresis	OK
+DRUG	RouteOfAdministration	118	Local	OK
+DRUG	RouteOfAdministration	119	Local(061)	Same as 118
+DRUG	RouteOfAdministration	120	Local(Injection)	OK
+DRUG	RouteOfAdministration	121	Local(Local injection in the operative field)	OK
+DRUG	RouteOfAdministration	122	Local(Local)	Same as 118
+DRUG	RouteOfAdministration	123	Nasogastric	OK
+DRUG	RouteOfAdministration	124	Neck	OK
+DRUG	RouteOfAdministration	125	Nose	Better as nasal
+DRUG	RouteOfAdministration	126	Nose(045)	Same as 125
+DRUG	RouteOfAdministration	127	Nose(Nasally)	Same as 125
+DRUG	RouteOfAdministration	128	Nose(nose drops)	Same as 125
+DRUG	RouteOfAdministration	129	Occlusive bandage method	OK
+DRUG	RouteOfAdministration	130	Oral	OK
+DRUG	RouteOfAdministration	131	Oral administration	Same as 130
+DRUG	RouteOfAdministration	132	Oral(048)	Same as 130
+DRUG	RouteOfAdministration	133	Oral(065)	Same as 130
+DRUG	RouteOfAdministration	134	Oral(48)	Same as 130
+DRUG	RouteOfAdministration	135	Oral(Internal medicine)	Same as 130
+DRUG	RouteOfAdministration	136	Oral(Intravenous drip)	OK
+DRUG	RouteOfAdministration	137	Oral(Oral administration)	Same as 130
+DRUG	RouteOfAdministration	138	Oral(Oral)	Same as 130
+DRUG	RouteOfAdministration	139	Oral(POR)	Same as 130
+DRUG	RouteOfAdministration	140	Oral(TAB)	Same as 130
+DRUG	RouteOfAdministration	141	Oral(noMatch)	Same as 130
+DRUG	RouteOfAdministration	142	Oropharynx	OK
+DRUG	RouteOfAdministration	143	Others	Better as unknown
+DRUG	RouteOfAdministration	144	Parenteral	OK	
+DRUG	RouteOfAdministration	145	Parenteral(Gastrointestinal tube)	OK
+DRUG	RouteOfAdministration	146	Parenteral(Infusion)	OK
+DRUG	RouteOfAdministration	147	Parenteral(Simple suspension method from gastrostomy)	OK
+DRUG	RouteOfAdministration	148	Parenteral(nasogastric tube)	OK
+DRUG	RouteOfAdministration	149	Periarticular	OK
+DRUG	RouteOfAdministration	150	Perineural	OK
+DRUG	RouteOfAdministration	151	Rectal	OK
+DRUG	RouteOfAdministration	152	Rectal(054)	Same as 151
+DRUG	RouteOfAdministration	153	Rectal(Enteral infusion)	OK
+DRUG	RouteOfAdministration	154	Rectal(Rectal)	Same as 151
+DRUG	RouteOfAdministration	155	Rectal(anal insertion)	OK
+DRUG	RouteOfAdministration	156	Retrobulbar	OK
+DRUG	RouteOfAdministration	157	Retrobulbar(under the tenon)	OK
+DRUG	RouteOfAdministration	158	Single and daily dose unknown	Better as Unkown
+DRUG	RouteOfAdministration	159	Skin	OK
+DRUG	RouteOfAdministration	160	Skin(Application)	Same as 159
+DRUG	RouteOfAdministration	161	Skin(OIT)	OK
+DRUG	RouteOfAdministration	162	Skin(Skin)	Same as 159
+DRUG	RouteOfAdministration	163	Subconjunctiva	Better as Subconjunctival
+DRUG	RouteOfAdministration	164	Subcutaneous	OK
+DRUG	RouteOfAdministration	165	Subcutaneous injection	OK
+DRUG	RouteOfAdministration	166	Subcutaneous(042)	Same as 164
+DRUG	RouteOfAdministration	167	Subcutaneous(058)	Same as 164
+DRUG	RouteOfAdministration	168	Subcutaneous(Injection(Unspecified))	Same as 165
+DRUG	RouteOfAdministration	169	Subcutaneous(Injection)	Same as 165
+DRUG	RouteOfAdministration	170	Subcutaneous(Intravenous drip)	OK
+DRUG	RouteOfAdministration	171	Subcutaneous(Persistence)	Same as 164
+DRUG	RouteOfAdministration	172	Subcutaneous(Subcutaneous)	Same as 164
+DRUG	RouteOfAdministration	173	Subcutaneous(epidural catheter)	OK
+DRUG	RouteOfAdministration	174	Subcutaneous(subcutaneous injection)	Same as 165
+DRUG	RouteOfAdministration	175	Subdermis	OK
+DRUG	RouteOfAdministration	176	Sublingual	OK
+DRUG	RouteOfAdministration	177	Teeth	OK
+DRUG	RouteOfAdministration	178	Topical use	OK
+DRUG	RouteOfAdministration	179	Transdermal	OK
+DRUG	RouteOfAdministration	180	Transdermal(062)	Same as 179
+DRUG	RouteOfAdministration	181	Transdermal(Application)	Same as 179
+DRUG	RouteOfAdministration	182	Transdermal(External use)	Same as 179
+DRUG	RouteOfAdministration	183	Transdermal(Paste)	OK
+DRUG	RouteOfAdministration	184	Transdermal(Transdermal)	Same as 179
+DRUG	RouteOfAdministration	185	Transmilk	Better as Through breastmilk
+DRUG	RouteOfAdministration	186	Transmilk(Transmilk)	Better as Through breastmilk
+DRUG	RouteOfAdministration	187	Transplacental	OK
+DRUG	RouteOfAdministration	188	Transplacental(Subcutaneous)	OK
+DRUG	RouteOfAdministration	189	Transplacental(Transplacental)	Same as 187
+DRUG	RouteOfAdministration	190	Transplacental(noMatch)	Same as 187
+DRUG	RouteOfAdministration	191	Transtracheal	OK
+DRUG	RouteOfAdministration	192	Unknown	OK
+DRUG	RouteOfAdministration	193	Urethra	Better as urethral
+DRUG	RouteOfAdministration	194	Used for inhalation	Same as 24
+DRUG	RouteOfAdministration	195	Used for intestine	Better as intestinal
+DRUG	RouteOfAdministration	196	Used for laryngopharyngeal	Better as laryngopharyngeal
+DRUG	RouteOfAdministration	197	Used for stomach	Better as gastric
+DRUG	RouteOfAdministration	198	Vagina	Better as vaginal
+DRUG	RouteOfAdministration	199	Venous NOS(42)	Better as Venous NOS
+DRUG	RouteOfAdministration	200	Within the lesion	OK
+DRUG	RouteOfAdministration	201	noMatch	Same as 192
+DRUG	RouteOfAdministration	202	noMatch(041)	Same as 192
+DRUG	RouteOfAdministration	203	noMatch(042)	Same as 192
+DRUG	RouteOfAdministration	204	noMatch(050)	Same as 192
+DRUG	RouteOfAdministration	205	noMatch(065)	Same as 192
+DRUG	RouteOfAdministration	206	noMatch(Disinfection)	Better as Others(Disinfection)
+DRUG	RouteOfAdministration	207	noMatch(External use)	Better as Others(External)
+DRUG	RouteOfAdministration	208	noMatch(Gastric fistula)	Better as Others(Gastric fistula)
+DRUG	RouteOfAdministration	209	noMatch(Gastric tube)	Better as Others(Gastric tube)
+DRUG	RouteOfAdministration	210	noMatch(Gastrointestinal tube)	Better as Others(Gastrointestinal tube)
+DRUG	RouteOfAdministration	211	noMatch(In the vitreous)	Better as Others(intravitreal)
+DRUG	RouteOfAdministration	212	noMatch(Injection(Unspecified))	Better as Others(injection)
+DRUG	RouteOfAdministration	213	noMatch(Injection)	Better as Others(injection)
+DRUG	RouteOfAdministration	214	noMatch(Intraperitoneal)	Better as Others(Intraperitoneal)
+DRUG	RouteOfAdministration	215	noMatch(Intrathecal)	Better as Others(Intrathecal)
+DRUG	RouteOfAdministration	216	noMatch(L3/Spinal anesthesia from 4)	Better as Others(L3/Spinal anesthesia from 4)
+DRUG	RouteOfAdministration	217	noMatch(Local anaesthesia)	Better as Others(Local anaesthesia)
+DRUG	RouteOfAdministration	218	noMatch(Local)	Better as Others(Local)
+DRUG	RouteOfAdministration	219	noMatch(NG tube)	Better as Others(Nasogastric tube)
+DRUG	RouteOfAdministration	220	noMatch(Nasally/Gastric fistula)	Better as Others(Nasally/Gastric fistula)
+DRUG	RouteOfAdministration	221	noMatch(Nasally/Gastrostomy: simple suspension)	Better as Others(Nasally/Gastrostomy)
+DRUG	RouteOfAdministration	222	noMatch(Nasogastric)	Same as 219
+DRUG	RouteOfAdministration	223	noMatch(Peripheral intravenous drip)	Better as Others(Peripheral intravenous drip)
+DRUG	RouteOfAdministration	224	noMatch(Peripheral main root)	Better as Others(Peripheral main route)
+DRUG	RouteOfAdministration	225	noMatch(Root filling)	Better as Others(Root filling)
+DRUG	RouteOfAdministration	226	noMatch(Subarachnoid)	Better as Others(Subarachnoidal)
+DRUG	RouteOfAdministration	227	noMatch(Subtenon&#39	
+DRUG	RouteOfAdministration	228	noMatch(Transdermal)	Better as Others(Transdermal)
+DRUG	RouteOfAdministration	229	noMatch(Transtracheal)	Better as Others(Transtracheal)
+DRUG	RouteOfAdministration	230	noMatch(Unknown)	Same as 192
+DRUG	RouteOfAdministration	231	noMatch(Used for inhalation)	Better as Others(Inhalational)
+DRUG	RouteOfAdministration	232	noMatch(Used for intestine)	Better as Others(Intestinal)
+DRUG	RouteOfAdministration	233	noMatch(gastric tube)	Same as 209
+DRUG	RouteOfAdministration	234	noMatch(glottis)	Better as Others(Glottis)
+DRUG	RouteOfAdministration	235	noMatch(infiltration)	Better as Others(Infiltration anaesthesia)
+DRUG	RouteOfAdministration	236	noMatch(intracranial)	Better as Others(intracranial)
+DRUG	RouteOfAdministration	237	noMatch(intrasinus)	Better as Others(intrasinus)
+DRUG	RouteOfAdministration	238	noMatch(iv-PCA)	Better as Others(iv-PCA)
+DRUG	RouteOfAdministration	239	noMatch(jurisdiction)	Better as Others(unknown)
+DRUG	RouteOfAdministration	240	noMatch(laryngopharynx)	Better as Others(laryngopharyngeal)
+DRUG	RouteOfAdministration	241	noMatch(local injection)	Better as Others(local injection)
+DRUG	RouteOfAdministration	242	noMatch(nasal catheter)	Better as Others(nasal catheter)
+DRUG	RouteOfAdministration	243	noMatch(nasogastric tube)	Same as 219
+DRUG	RouteOfAdministration	244	noMatch(nasotracheal tube)	Better as Others(nasotracheal tube)
+DRUG	RouteOfAdministration	245	noMatch(noMatch)	Same as 192
+DRUG	RouteOfAdministration	246	noMatch(note)	Same as 192	
+DRUG	RouteOfAdministration	247	noMatch(stomach)	Better as Others(stomach)
+DRUG	RouteOfAdministration	248	noMatch(systemic topical(Including whole body application))	Better as Others(systemic topical(Including whole body application))
+DRUG	RouteOfAdministration	249	noMatch(tendon)	Better as Others(tendon)
+DRUG	RouteOfAdministration	250	noMatch(transtympanic)	Better as Others(transtympanic)
+DRUG	RouteOfAdministration	251	noMatch(tube administration)	Better as Others(Enteral nutrition)
+DRUG	RouteOfAdministration	252	noMatch(tube)	Better as Others(Enteral nutrition)
+DRUG	RouteOfAdministration	253	noMatch(used for eyeballs)	Better as Others(Retrobulbar)
+DRUG	RouteOfAdministration	254	s capsule)
+DRUG	DosageUnit	1	%	OK
+DRUG	DosageUnit	2	Ci	OK
+DRUG	DosageUnit	3	DF	OK
+DRUG	DosageUnit	4	L	OK
+DRUG	DosageUnit	5	MBq	OK
+DRUG	DosageUnit	6	M[iU]	Better as miu
+DRUG	DosageUnit	7	Miu	Same as 6
+DRUG	DosageUnit	8	[drp]	Better as drp
+DRUG	DosageUnit	9	[iU]	Better as iu
+DRUG	DosageUnit	10	[iU]/kg	Better as iu/kg
+DRUG	DosageUnit	11	g	OK
+DRUG	DosageUnit	12	gtt	Same as 8
+DRUG	DosageUnit	13	iu	Same as 9
+DRUG	DosageUnit	14	iu/kg	Same as 10
+DRUG	DosageUnit	15	k[iU]	Better as kiu
+DRUG	DosageUnit	16	kg	OK
+DRUG	DosageUnit	17	kiu	Same as 15
+DRUG	DosageUnit	18	mCi	OK
+DRUG	DosageUnit	19	mEq	OK
+DRUG	DosageUnit	20	mL	OK
+DRUG	DosageUnit	21	meq	OK
+DRUG	DosageUnit	22	mg	OK
+DRUG	DosageUnit	23	mg/kg	OK
+DRUG	DosageUnit	24	mg/m2	OK
+DRUG	DosageUnit	25	mg/mL	OK
+DRUG	DosageUnit	26	mg/m^2	Same as 24
+DRUG	DosageUnit	27	mmol	OK
+DRUG	DosageUnit	28	mol	OK
+DRUG	DosageUnit	29	nCi	OK
+DRUG	DosageUnit	30	ng	OK
+DRUG	DosageUnit	31	pg	OK
+DRUG	DosageUnit	32	uL	OK
+DRUG	DosageUnit	33	ug	OK
+DRUG	DosageUnit	34	ug/kg	OK
+DRUG	DosageUnit	35	ug/m2	OK
+DRUG	DosageUnit	36	μL	Same as 32
+DRUG	DosageUnit	37	μg	Same as 33
+DRUG	DosageUnit	38	μg/kg	Same as 34
+DRUG	DosageUnit	39	μg/m^2	Same as 35
+DRUG	DosageUnit	40	％	Same as 1
+DRUG	Treatment	1	Discontinuation of administration	OK
+DRUG	Treatment	2	Dose increase	OK
+DRUG	Treatment	3	Dose reduction	OK
+DRUG	Treatment	4	No dose change	OK
+DRUG	Treatment	5	Not applicable	OK
+DRUG	Treatment	6	Unknown	OK
+DEMO	Sex	1	Man	OK
+DEMO	Sex	2	Woman	OK
+DEMO	Sex	3	Not clear	Better as unknown
+DEMO	HeightBin	1	Less than 10 cm	OK
+DEMO	HeightBin	2	10cm	OK
+DEMO	HeightBin	3	20cm	OK
+DEMO	HeightBin	4	30cm	OK
+DEMO	HeightBin	5	40cm	OK
+DEMO	HeightBin	6	50cm	OK
+DEMO	HeightBin	7	60cm	OK
+DEMO	HeightBin	8	70cm	OK
+DEMO	HeightBin	9	80cm	OK
+DEMO	HeightBin	10	90cm	OK
+DEMO	HeightBin	11	100cm	OK
+DEMO	HeightBin	12	110cm	OK
+DEMO	HeightBin	13	120cm	OK
+DEMO	HeightBin	14	130cm	OK
+DEMO	HeightBin	15	140cm	OK
+DEMO	HeightBin	16	150cm	OK
+DEMO	HeightBin	17	160cm	OK
+DEMO	HeightBin	18	170cm	OK
+DEMO	HeightBin	19	180cm	OK
+DEMO	HeightBin	20	190cm	OK
+DEMO	HeightBin	21	200 cm or more	OK
+DEMO	PatientSurveyStatus	1	Investigating	OK
+DEMO	PatientSurveyStatus	2	Survey completed	OK
+DEMO	ReportType	1	Spontaneous report	OK
+DEMO	ReportType	2	Test	OK
+DEMO	ReportType	3	Not clear	Better as unknown
+DEMO	ReportType	4	Other	OK

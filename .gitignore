@@ -1,8 +1,9 @@
 *.pyc
-data/JADERTransComb.txt
-tsui_exporter/tmp
-tsui_exporter/out
+resource/JADERTransComb.txt
+tsui_sigtest_extractor/tmp
+tsui_sigtest_extractor/out
 .idea
 __pycache__/*
 */__pycache__
 db.py
+resource/*_final.txt
