@@ -11,7 +11,7 @@
    ./decomp.sh
 ```
 ### Input descriptions
-- resource/JADERTransComb.txt
+- resource/JADERTransComb.txt:
 
   Contain merged information of each RecordId with English text.
   Format of each line (with tab seperator):
@@ -20,9 +20,31 @@
         RecordId drug1,drug2,...,drugn adverse_event1,adverse_event2,...,adverse_eventm
     
     ```
-- resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, resource/reac202104_utf_EN_final.txt
+- resource/demo202104_utf_EN_final.txt:
 
-Original english translated files from JADER data for demographic, drug usage, history of diseases, and adverse events of patients, respectively.
+  Demographic information of patients in English text with the columns:
+    ```
+    PrimaryId	CaseId	Sex	AgeBin	WeightBin	HeightBin	ReportingDate	PatientSurveyStatus	ReportType	ReporterQualification	E2B
+    ```
+- resource/drug202104_utf_EN_final.txt:
+
+  Drug usage information in English text with the columns:
+
+    ```
+    PrimaryId	CaseId	DrugNr	Involvement	ActiveIngredient	ActiveIngredientFromProductName	RouteOfAdministration	AdministrationStart	AdministrationEnd	Dosage	DosageUnit	MultipleDoses	ReasonForUse	Treatment	RecurrenceInformation	RiskCategorization
+    ```
+- resource/hist202104_utf_EN_final.txt:
+
+  History of diseases of patients in English text with the columns:
+    ```
+    PrimaryId	CaseId	DiseaseNr	DiseaseId
+    ```
+- resource/reac202104_utf_EN_final.txt:
+
+  Adverse events in English text with the columns:
+    ```
+    PrimaryId   CaseId  AdverseEventNr	AdverseEventPreferredTerm	Outcome DateOfOccurrence
+    ```
 
 ### Running
 #### Extracting TSUI for raw text format:

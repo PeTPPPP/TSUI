@@ -5,7 +5,7 @@ do
 if [[ "$OSTYPE" == "darwin"* ]]; then
  7zz x -y $dfs -oresource/
 else
-  7z x -y $dfs
+  7z x -y $dfs -oresource/
 fi
 done
 

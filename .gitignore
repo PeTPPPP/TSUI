@@ -1,5 +1,4 @@
 *.pyc
-resource/JADERTransComb.txt
 tsui_sigtest_extractor/tmp
 tsui_sigtest_extractor/out
 .idea
