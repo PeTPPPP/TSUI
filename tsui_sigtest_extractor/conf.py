@@ -1,5 +1,5 @@
 import os
-from params import JADER_TRANS_COMB_FILE, TSUI_FILE, DATA_DIR, DRUGBANK_FILE
+from params import JADER_TRANS_COMB_FILE, TSUI_FILE, OUT_DATA_DIR, DRUGBANK_FILE
 
 C_DIR = os.path.abspath(os.path.dirname(__file__))
 
