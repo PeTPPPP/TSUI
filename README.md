@@ -1,6 +1,6 @@
 # TSUI
 
-### Final datasets
+## Final datasets
 #### Raw files
 1) data/TSUI_ML.txt: In raw text for triples of drug-drug-side effect with the format of each line:
     ```
@@ -58,8 +58,8 @@
     ```
     data/TSUI_Encoded/ActiveIngredientList for DrugID and data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventID
 
-### Codes
-## Preparing environments
+## Codes
+### Preparing environments and input
 #### Create a python enviroment
 ```shell
     conda env -create -f enviroment.yml
@@ -69,7 +69,7 @@
 ```shell
    ./decomp.sh
 ```
-### Input descriptions
+#### Input descriptions
 1) resource/JADERTransComb.txt:
   Contains merged information of each RecordId with English text.
   Format of each line (with tab seperator):
