@@ -31,20 +31,20 @@ resource/reac202104_utf_EN_final.txt, respectively.
 
 The columns to encode by numerical values are as follows:
 - reac202104_utf_EN_final.txt
-- - AdverseEventPreferredTerm
-- - Outcome
+  - AdverseEventPreferredTerm
+  - Outcome
 - drug202104_utf_EN_final.txt
-- - Involvement
-- - Treatment
-- - RiskCategorization
+  - Involvement
+  - Treatment
+  - RiskCategorization
 - demo202104_utf_EN_final.txt
-- - Sex
-- - AgeBin
-- - WeightBin
-- - HeightBin
-- - PatientSurveyStatus
-- - ReportType
-- - ReporterQualification
+  - Sex
+  - AgeBin
+  - WeightBin
+  - HeightBin
+  - PatientSurveyStatus
+  - ReportType
+  - ReporterQualification
 
 The columns to encode in seperated files:
     - hist202104_utf_EN_final.txt:
