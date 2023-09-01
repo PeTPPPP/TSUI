@@ -21,7 +21,8 @@
 
 
 2) data/TSUI_Encoded/DEMO, data/TSUI_Encoded/DRUG, data/TSUI_Encoded/HIST, data/TSUI_Encoded/REAC:
-   Files were corrected for redundancy, character mismatches, etc. and were converted into a relational database format and correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and resource/reac202104_utf_EN_final.txt, respectively.
+   Individual files correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and resource/reac202104_utf_EN_final.txt, respectively, after correction for redundancy, character mismatches, etc. and conversion into a relational database format.
+   
 
 
     The columns to encode by numerical values are as follows:
