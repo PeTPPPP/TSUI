@@ -25,7 +25,7 @@
    
 
 
-    The columns to encode by numerical values are as follows:
+    The columns encoded by numerical values are:
     - reac202104_utf_EN_final.txt
       - AdverseEventPreferredTerm
       - Outcome
@@ -42,7 +42,7 @@
       - ReportType
       - ReporterQualification
 
-    The columns to encode in separated files:
+    The columns encoded by IDs:
     - hist202104_utf_EN_final.txt:
       - DiseaseID 
     - reac202104_utf_EN_final.txt:
@@ -56,7 +56,8 @@
     ```
     Table name    Column Name    Coded Value    Description
     ```
-    data/TSUI_Encoded/ActiveIngredientList for DrugID and data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventID
+    See data/TSUI_Encoded/ActiveIngredientList for DrugIDs and
+    data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventIDs
 
 ## Code
 ### Preparing environments and input
