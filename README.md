@@ -8,7 +8,7 @@
     ```
     Where [[a,b],[c,d]] is the values of the contingency table of Fisher's exact test, resulting in Ord and p-value
 
-2) Bundle of reports in raw format (NOTE: files are without corrections, i.e. may contain character mismatches, remaining tokens, etc.)
+2) Bundle of reports in raw format
     resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and
     resource/reac202104_utf_EN_final.txt
 
@@ -21,8 +21,7 @@
 
 
 2) data/TSUI_Encoded/DEMO, data/TSUI_Encoded/DRUG, data/TSUI_Encoded/HIST, data/TSUI_Encoded/REAC:
-    Correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and
-    resource/reac202104_utf_EN_final.txt, respectively.
+   Files were corrected for redundancy, character mismatches, etc. and were converted into a relational database format and correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and resource/reac202104_utf_EN_final.txt, respectively.
 
 
     The columns to encode by numerical values are as follows:
@@ -59,7 +58,7 @@
     data/TSUI_Encoded/ActiveIngredientList for DrugID and data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventID
 
 ## Code
-### Preparing environs and input
+### Preparing environments and input
 #### Create a python enviroment
 ```shell
     conda env -create -f enviroment.yml
