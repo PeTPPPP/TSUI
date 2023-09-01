@@ -58,8 +58,8 @@
     ```
     data/TSUI_Encoded/ActiveIngredientList for DrugID and data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventID
 
-## Codes
-### Preparing environments and input
+## Code
+### Preparing environs and input
 #### Create a python enviroment
 ```shell
     conda env -create -f enviroment.yml
