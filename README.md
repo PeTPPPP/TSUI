@@ -23,27 +23,30 @@ DrugID1,DrugID2,Adverse_eventID,A,B,C,D,Ord,p-value
 ```
 With the descriptions of the encoded values in two files: 1) data/TSUI_Encoded/ActiveIngredientList for DrugName and DrugId; 2) data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_event and Adverse_eventID
 
+
 - data/TSUI_Encoded/DEMO, data/TSUI_Encoded/DRUG, data/TSUI_Encoded/HIST, data/TSUI_Encoded/REAC:
 Correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and
 resource/reac202104_utf_EN_final.txt, respectively.
 
+
 The columns to encode by numerical values are as follows:
-    - reac202104_utf_EN_final.txt
-        - AdverseEventPreferredTerm
-        - Outcome
-    - drug202104_utf_EN_final.txt
-        - Involvement
-        - Treatment
-        - RiskCategorization
-    - demo202104_utf_EN_final.txt
-        - Sex
-        - AgeBin
-        - WeightBin
-        - HeightBin
-        - PatientSurveyStatus
-        - ReportType
-        - ReporterQualification
-    The columns to encode in seperated files:
+- reac202104_utf_EN_final.txt
+- - AdverseEventPreferredTerm
+- - Outcome
+- drug202104_utf_EN_final.txt
+- - Involvement
+- - Treatment
+- - RiskCategorization
+- demo202104_utf_EN_final.txt
+- - Sex
+- - AgeBin
+- - WeightBin
+- - HeightBin
+- - PatientSurveyStatus
+- - ReportType
+- - ReporterQualification
+
+The columns to encode in seperated files:
     - hist202104_utf_EN_final.txt:
         - DiseaseID 
     - reac202104_utf_EN_final.txt:
