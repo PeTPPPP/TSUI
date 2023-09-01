@@ -46,17 +46,17 @@ The columns to encode by numerical values are as follows:
   - ReportType
   - ReporterQualification
 
-The columns to encode in seperated files:
-    - hist202104_utf_EN_final.txt:
-        - DiseaseID 
-    - reac202104_utf_EN_final.txt:
-        - AdverseEventPreferredTerm
-    - drug202104_utf_EN_final.txt:
-        - ActiveIngredient
-        - ActiveIngredientFromProductName 
-        - ReasonForUse
+The columns to encode in separated files:
+- hist202104_utf_EN_final.txt:
+  - DiseaseID 
+- reac202104_utf_EN_final.txt:
+  - AdverseEventPreferredTerm
+- drug202104_utf_EN_final.txt:
+  - ActiveIngredient
+  - ActiveIngredientFromProductName 
+  - ReasonForUse
 
-- The descriptions of the encoded values are in data/TSUI_Encoded/EncodedColumnValues with the format:
+The descriptions of the encoded values are in data/TSUI_Encoded/EncodedColumnValues with the format:
 Table name\tColumn Name\tCoded Value\tDescription,
 data/TSUI_Encoded/ActiveIngredientList for DrugID and data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventID
 
