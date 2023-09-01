@@ -57,7 +57,9 @@ The columns to encode in separated files:
   - ReasonForUse
 
 The descriptions of the encoded values are in data/TSUI_Encoded/EncodedColumnValues with the format:
-Table name\tColumn Name\tCoded Value\tDescription,
+```
+Table name    Column Name    Coded Value    Description
+```
 data/TSUI_Encoded/ActiveIngredientList for DrugID and data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventID
 
 ### Codes
