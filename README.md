@@ -2,18 +2,15 @@
 
 ### Final datasets
 #### Raw files
-- data/TSUI_ML.txt: In raw text for triples of drug-drug-side effect with the format of each line:
-```
-Drug_name_1,Drug_name_2,Adverse_event,A,B,C,D,Ord,p-value
+1) data/TSUI_ML.txt: In raw text for triples of drug-drug-side effect with the format of each line:
+    ```
+    Drug_name_1,Drug_name_2,Adverse_event,A,B,C,D,Ord,p-value
+    ```
+    Where [[a,b],[c,d]] is the values of the contingency table of Fisher's exact test, resulting in Ord and p-value
 
-```
-    
-   Where [[a,b],[c,d]] is the values of the contingency table of Fisher's exact test, resulting in Ord and p-value
-
-  
-Bundle of reports in raw format (NOTE: files are without corrections, i.e. may contain character mismatches, remaining tokens, etc.)
-resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and
-resource/reac202104_utf_EN_final.txt
+2) Bundle of reports in raw format (NOTE: files are without corrections, i.e. may contain character mismatches, remaining tokens, etc.)
+    resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and
+    resource/reac202104_utf_EN_final.txt
 
 #### Filtered, numerically encoded files
 1) data/TSUI_Encoded/TSUI_ML_Encoded.txt: In numerical encoded format of TSUI_ML.txt:
