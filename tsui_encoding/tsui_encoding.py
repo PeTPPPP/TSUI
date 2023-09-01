@@ -63,7 +63,7 @@ def get_all_values():
             if len(p) < 300:
                 print(colnams[i], p)
 def correct_column_name(n):
-    if n[-2:] == "Id":
+    if n[-2:] == "Id" and  n != "PrimaryId" and n != "CaseId":
         return n[:-2]
     return n
 def sortingx(ll, no_except=False):
