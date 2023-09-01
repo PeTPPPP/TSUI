@@ -13,6 +13,7 @@
     resource/reac202104_utf_EN_final.txt
 
 #### Filtered, numerically encoded files
+Files can be found in the TSUI_reports.7z file due to size limitations. 
 1) Machine learning dataset
    
    data/TSUI_Encoded/TSUI_ML_Encoded.txt: In numerical encoded format of TSUI_ML.txt:
