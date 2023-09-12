@@ -242,7 +242,7 @@ def convert_tsui_ml():
     fout = open("data/TSUI_Encoded/TSUI_ML_Encoded.txt", "w")
     # fout.write(fin.readline().replace(",", "\t"))
     fin.readline() # Skip line
-    fout.write("Drug1ID\tDrug2ID\tAdverse_eventID\tA\tB\tC\tD\tOrd\tp-Value\n")
+    fout.write("Drug1ID\tDrug2ID\tAdverse_eventID\tA\tB\tC\tD\tOrd\tp-value\n")
     while True:
         line = fin.readline()
         if line == "":
