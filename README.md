@@ -26,7 +26,7 @@ Files can be found in the data/TSUI_Encoded folder as follows:
 2) Pharmacovigilance reports
    
    data/TSUI_Encoded/DEMO.txt, data/TSUI_Encoded/DRUG.txt, data/TSUI_Encoded/HIST.txt, data/TSUI_Encoded/REAC.txt:
-   Individual files correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and resource/reac202104_utf_EN_final.txt, respectively, after correction for redundancy, character mismatches, etc. and conversion into a relational database format. NOTE: Due to these secondary steps, we encourage the use of this version of the dataset instead of the raw files. 
+   Individual files correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and resource/reac202104_utf_EN_final.txt, respectively, after correction for redundancy, character mismatches, etc. and conversion into a relational database format. NOTE: Due to these secondary steps, we encourage the use of this version of the dataset instead of the raw files. The bundle can be downloaded also as a compressed file in .7z format. 
    
 
 
