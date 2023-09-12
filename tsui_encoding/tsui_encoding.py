@@ -240,7 +240,7 @@ def convert_tsui_ml():
     d_adrmap = load_map("data/TSUI_Encoded/AdverseEventPreferredTermList.txt")
     fin = open("data/TSUI_ML.txt")
     fout = open("data/TSUI_Encoded/TSUI_ML_Encoded.txt", "w")
-    fout.write(fin.readline())
+    fout.write(fin.readline().replace(",", "\t"))
     while True:
         line = fin.readline()
         if line == "":
