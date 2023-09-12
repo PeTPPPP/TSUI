@@ -6,3 +6,5 @@ __pycache__/*
 */__pycache__
 db.py
 resource/*_final.txt
+.DS_Store
+.gitignore

@@ -13,7 +13,7 @@
     resource/reac202104_utf_EN_final.txt
 
 #### Filtered, numerically encoded files
-Files can be found in the TSUI_reports.7z file due to size limitations and are accessible after extraction at the given locations. 
+Files can be found in the data/TSUI_Encoded folder as follows: 
 1) Machine learning dataset
    
    data/TSUI_Encoded/TSUI_ML_Encoded.txt: In numerical encoded format of TSUI_ML.txt:
@@ -25,7 +25,7 @@ Files can be found in the TSUI_reports.7z file due to size limitations and are a
 
 2) Pharmacovigilance reports
    
-   data/TSUI_Encoded/DEMO, data/TSUI_Encoded/DRUG, data/TSUI_Encoded/HIST, data/TSUI_Encoded/REAC:
+   data/TSUI_Encoded/DEMO.txt, data/TSUI_Encoded/DRUG.txt, data/TSUI_Encoded/HIST.txt, data/TSUI_Encoded/REAC.txt:
    Individual files correspond to resource/demo202104_utf_EN_final.txt, resource/drug202104_utf_EN_final.txt, resource/hist202104_utf_EN_final.txt, and resource/reac202104_utf_EN_final.txt, respectively, after correction for redundancy, character mismatches, etc. and conversion into a relational database format. NOTE: Due to these secondary steps, we encourage the use of this version of the dataset instead of the raw files. 
    
 
@@ -61,8 +61,8 @@ Files can be found in the TSUI_reports.7z file due to size limitations and are a
     ```
     Table name    Column Name    Coded Value    Description
     ```
-    See data/TSUI_Encoded/ActiveIngredientList for DrugIDs and
-    data/TSUI_Encoded/AdverseEventPreferredTermList for Adverse_eventIDs
+    See data/TSUI_Encoded/ActiveIngredientList.txt for DrugIDs and
+    data/TSUI_Encoded/AdverseEventPreferredTermList.txt for Adverse_eventIDs
 
 ## Code
 ### Preparing environments and input

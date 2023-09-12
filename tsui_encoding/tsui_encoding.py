@@ -118,7 +118,7 @@ def sortingx(ll, no_except=False):
     return ll
 def encoding():
     print("Start encoding...")
-    fEncodingGlobalInfo = open("data/TSUI_Encoded/EncodedColumnValues", "w")
+    fEncodingGlobalInfo = open("data/TSUI_Encoded/EncodedColumnValues.txt", "w")
     fEncodingGlobalInfo.write("Table name\tColumn Name\tCoded Value\tDescription\n")
     global_remap = load_remap_global()
 
@@ -135,7 +135,7 @@ def encoding():
             if colnames[i] not in GLOBAL_COLUMNS and colnames[i] not in SEP_COLUMS:
                 continue
             if colnames[i] in SEP_COLUMS:
-                finfo = open("data/TSUI_Encoded/%sList" % correct_column_name(colnames[i]), "w")
+                finfo = open("data/TSUI_Encoded/%sList.txt" % correct_column_name(colnames[i]), "w")
                 finfo.write("%s\t%sId\n" % (correct_column_name(colnames[i]), correct_column_name(colnames[i])))
             else:
                 finfo = fEncodingGlobalInfo
@@ -162,7 +162,7 @@ def encoding():
             if colnames[i] in SEP_COLUMS:
                 finfo.close()
 
-        fout = open("data/TSUI_Encoded/%s" % TB_NAME, "w")
+        fout = open("data/TSUI_Encoded/%s.txt" % TB_NAME, "w")
         colnams2 = []
         for col in colnames:
             col0 = col
@@ -236,8 +236,8 @@ def convert_tsui_ml():
             d[parts[0].strip()] = parts[1].strip()
         fin.close()
         return d
-    d_drugmap = load_map("data/TSUI_Encoded/ActiveIngredientList")
-    d_adrmap = load_map("data/TSUI_Encoded/AdverseEventPreferredTermList")
+    d_drugmap = load_map("data/TSUI_Encoded/ActiveIngredientList.txt")
+    d_adrmap = load_map("data/TSUI_Encoded/AdverseEventPreferredTermList.txt")
     fin = open("data/TSUI_ML.txt")
     fout = open("data/TSUI_Encoded/TSUI_ML_Encoded.txt", "w")
     fout.write(fin.readline())
