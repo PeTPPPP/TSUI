@@ -240,7 +240,9 @@ def convert_tsui_ml():
     d_adrmap = load_map("data/TSUI_Encoded/AdverseEventPreferredTermList.txt")
     fin = open("data/TSUI_ML.txt")
     fout = open("data/TSUI_Encoded/TSUI_ML_Encoded.txt", "w")
-    fout.write(fin.readline().replace(",", "\t"))
+    # fout.write(fin.readline().replace(",", "\t"))
+    fin.readline() # Skip line
+    fout.write("Drug1ID\tDrug2ID\tAdverse_eventID\tA\tB\tC\tD\tOrd\tp-Value\n")
     while True:
         line = fin.readline()
         if line == "":

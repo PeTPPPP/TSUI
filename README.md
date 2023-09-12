@@ -18,9 +18,9 @@ Files can be found in the data/TSUI_Encoded folder as follows:
    
    data/TSUI_Encoded/TSUI_ML_Encoded.txt: In numerical encoded format of TSUI_ML.txt:
     ```
-    DrugID1,DrugID2,Adverse_eventID,A,B,C,D,Ord,p-value
+    Drug1ID Drug2ID Adverse_eventID A   B C   D Ord p-value
     ```
-    With the descriptions of the encoded values in two files: 1) data/TSUI_Encoded/ActiveIngredientList.txt for DrugName and DrugId; 2) data/TSUI_Encoded/AdverseEventPreferredTermList.txt for Adverse_event and Adverse_eventID
+    With the descriptions of the encoded values in two files: 1) data/TSUI_Encoded/ActiveIngredientList.txt for DrugName and DrugID; 2) data/TSUI_Encoded/AdverseEventPreferredTermList.txt for Adverse_event and Adverse_eventID
 
 
 2) Pharmacovigilance reports
